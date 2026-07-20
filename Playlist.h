@@ -1,5 +1,6 @@
 #ifndef SPOTIFY_PROJECT_PLAYLIST_H
 #define SPOTIFY_PROJECT_PLAYLIST_H
+#include <iostream>
 #include <vector>
 #include "Song.h"
 using namespace std;

@@ -2,6 +2,7 @@
 
 #ifndef SPOTIFY_PROJECT_ABSTRACTREPOSITORY_H
 #define SPOTIFY_PROJECT_ABSTRACTREPOSITORY_H
+#include <iostream>
 #include <optional>
 
 using namespace std;

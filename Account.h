@@ -1,7 +1,7 @@
 
 #ifndef SPOTIFY_PROJECT_ACCOUNT_H
 #define SPOTIFY_PROJECT_ACCOUNT_H
-
+#include <iostream>
 using namespace std;
 
 class Account {

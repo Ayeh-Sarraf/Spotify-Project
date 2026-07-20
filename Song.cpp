@@ -2,9 +2,9 @@
 
 using namespace std;
 
-Song::Song(string songId, string name, int releaseYear, string genre, string audioFileName, string artistId, string albumId) {
+Song::Song(string songId, string title, int releaseYear, string genre, string audioFileName, string artistId, string albumId) {
     this->songId = songId;
-    this->name = name;
+    this->title = title;
     this->releaseYear = releaseYear;
     this->genre = genre;
     this->audioFileName = audioFileName;
@@ -16,8 +16,8 @@ string Song::getSongId() const {
     return songId;
 }
 
-string Song::getName() const {
-    return name;
+string Song::getTitle() const {
+    return title;
 }
 
 int Song::getReleaseYear() const {

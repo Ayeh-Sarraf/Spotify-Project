@@ -1,5 +1,6 @@
 #ifndef SPOTIFY_PROJECT_ALBUM_H
 #define SPOTIFY_PROJECT_ALBUM_H
+
 #include <vector>
 #include "Song.h"
 
