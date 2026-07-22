@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1219</width>
+    <height>653</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true">background-color: #121212</string>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="page_3">
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>40</y>
+          <width>481</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>-1</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #ffffff;;
+font-size: 40px;
+font-weight: bold;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;
+ border-radius: 15px;</string>
+        </property>
+        <property name="text">
+         <string>Welcome to MM Spotify!</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>140</y>
+          <width>371</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>-1</pointsize>
+          <fontweight>DemiBold</fontweight>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:  #ffffff;;
+font-size: 25px;
+font-weight: 600;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;
+ border-radius: 15px;</string>
+        </property>
+        <property name="text">
+         <string>Your ultimate music experience.</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>240</y>
+          <width>461</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>-1</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:  #ffffff;;
+font-size: 22px;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;
+ border-radius: 15px;</string>
+        </property>
+        <property name="text">
+         <string>Stream your favorite music anytime, anywhere.</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="loginButton">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>370</y>
+          <width>161</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Calibri</family>
+          <pointsize>-1</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #1DB954; color: white; border-radius: 15px; font-weight: bold; font-size: 16px; padding: 10px;⁠</string>
+        </property>
+        <property name="text">
+         <string>Login</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="registerButton">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>460</y>
+          <width>161</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Calibri</family>
+          <pointsize>-1</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #1DB954; color: white; border-radius: 15px; font-weight: bold; font-size: 16px; padding: 10px;⁠</string>
+        </property>
+        <property name="text">
+         <string>Register</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>460</x>
+          <y>20</y>
+          <width>231</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #FFFFFF;
+font-size: 32px;
+font-weight: bold;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;</string>
+        </property>
+        <property name="text">
+         <string>Create Account</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>160</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #B3B3B3;
+font-size: 20px;
+font-weight: 600;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;</string>
+        </property>
+        <property name="text">
+         <string>Full Name</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>220</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #B3B3B3;
+font-size: 20px;
+font-weight: 600;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;</string>
+        </property>
+        <property name="text">
+         <string>Username</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>280</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #B3B3B3;
+font-size: 20px;
+font-weight: 600;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;</string>
+        </property>
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>340</y>
+          <width>101</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #B3B3B3;
+font-size: 20px;
+font-weight: 600;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;</string>
+        </property>
+        <property name="text">
+         <string>Biography</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="roleInput">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>400</y>
+          <width>161</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #333333;
+color: white;
+border: 1px solid #555555;
+border-radius: 5px;
+padding: 5px;
+font-size: 14px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Listener</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Artist</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>400</y>
+          <width>81</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #B3B3B3;
+font-size: 20px;
+font-weight: 600;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;</string>
+        </property>
+        <property name="text">
+         <string>Role</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="nameInput">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>160</y>
+          <width>561</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #333333;
+color: white;
+border: 1px solid #555555;
+border-radius: 5px;
+padding: 5px;
+font-size: 25px;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="usernameInput">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>220</y>
+          <width>561</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #333333;
+color: white;
+border: 1px solid #555555;
+border-radius: 5px;
+padding: 5px;
+font-size: 25px;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="passwordInput">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>280</y>
+          <width>561</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #333333;
+color: white;
+border: 1px solid #555555;
+border-radius: 5px;
+padding: 5px;
+font-size: 25px;</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::EchoMode::Password</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="bioInput">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>340</y>
+          <width>561</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #333333;
+color: white;
+border: 1px solid #555555;
+border-radius: 5px;
+padding: 5px;
+font-size: 25px;</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="registerSubmitBtn">
+        <property name="geometry">
+         <rect>
+          <x>510</x>
+          <y>480</y>
+          <width>121</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #1DB954; color: white; border-radius: 15px; font-weight: bold; font-size: 16px; padding: 10px;⁠</string>
+        </property>
+        <property name="text">
+         <string>Sign Up!</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_5">
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>40</y>
+          <width>351</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #FFFFFF;
+font-size: 32px;
+font-weight: bold;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;</string>
+        </property>
+        <property name="text">
+         <string>Login To Your Account</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>160</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #B3B3B3;
+font-size: 20px;
+font-weight: 600;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;</string>
+        </property>
+        <property name="text">
+         <string>Username</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>270</y>
+          <width>91</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: #B3B3B3;
+font-size: 20px;
+font-weight: 600;
+font-family: &quot;Segoe UI&quot;, Arial, sans-serif;</string>
+        </property>
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="loginSubmitBtn">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>390</y>
+          <width>141</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #1DB954; color: white; border-radius: 15px; font-weight: bold; font-size: 16px; padding: 10px;⁠</string>
+        </property>
+        <property name="text">
+         <string>Login</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="loginUsernameInput">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>170</y>
+          <width>481</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #333333;
+color: white;
+border: 1px solid #555555;
+border-radius: 5px;
+padding: 5px;
+font-size: 14px;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="loginPasswordInput">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>280</y>
+          <width>481</width>
+          <height>26</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #333333;
+color: white;
+border: 1px solid #555555;
+border-radius: 5px;
+padding: 5px;
+font-size: 14px;</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::EchoMode::Password</enum>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
